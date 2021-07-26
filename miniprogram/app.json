@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/menu/menu",
+    "pages/user/user",
+    "pages/foodInfo/foodInfo",
+
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "专属菜单",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar":{
+    "color":"#6e6d6b",
+    "selectedColor":"#1296db",
+    "position":"bottom",
+    "borderStyle":"white",
+    "backgroundColor": "#292929",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "菜谱",
+        "iconPath": "./images/icon/1-1.png",
+        "selectedIconPath": "./images/icon/1.png"
+      }, {
+        "pagePath": "pages/menu/menu",
+        "text": "菜单",
+        "iconPath": "./images/icon/2.png",
+        "selectedIconPath": "./images/icon/2-2.png"
+      }, {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "./images/icon/3-3.png",
+        "selectedIconPath": "./images/icon/3.png"
+      }]
+  }
+}

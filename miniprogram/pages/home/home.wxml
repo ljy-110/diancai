@@ -1,0 +1,41 @@
+<view>
+    <view class="page-section page-section-spacing swiper" style="padding:0 10px;">
+        <swiper indicator-dots="true" autoplay="true" interval="20000" style="height:200px;" duration="2000">
+            <block wx:for="{{lunboList}}" wx:key="item" style="width:100%;height:200px;">
+                <swiper-item>
+                    <image style="width:100%;" src="{{item}}"/>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+</view>
+<view style="padding:0 10px;margin:10px 0;">
+    <view class="grid__4k">
+        <view class="center">
+            <image class="nav-img" src="cloud://cloud1-8guxzlq4dfa00a43.636c-cloud1-8guxzlq4dfa00a43-1302289871/nav/park1-18.jpg"></image>
+            <view style="font-size:14px;margin-top:5px;">家常菜</view>
+        </view>
+        <view class="center">
+            <image class="nav-img" src="cloud://cloud1-8guxzlq4dfa00a43.636c-cloud1-8guxzlq4dfa00a43-1302289871/nav/park1-17.jpg"></image>
+            <view style="font-size:14px;margin-top:5px;">养生汤</view>
+        </view>
+        <view class="center">
+            <image class="nav-img" src="cloud://cloud1-8guxzlq4dfa00a43.636c-cloud1-8guxzlq4dfa00a43-1302289871/nav/park1-13.jpg"></image>
+            <view style="font-size:14px;margin-top:5px;">好吃的</view>
+        </view>
+        <view class="center">
+            <image class="nav-img" src="cloud://cloud1-8guxzlq4dfa00a43.636c-cloud1-8guxzlq4dfa00a43-1302289871/nav/park1-19.jpg"></image>
+            <view style="font-size:14px;margin-top:5px;">甜点</view>
+        </view>
+    </view>
+</view>
+<view style="padding:0 10px;">
+    <view class="grid__2k">
+        <view wx:for="{{caipuList}}" wx:key="item">
+            <view class="list-box" bindtap="getFoodInfo" data-id="{{item._id}}">
+                <image class="list-img" src="{{item.img}}"></image>
+                <view class="word-two" style="font-size:14px;">{{item.title}}</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,21 @@
+<view>
+    <view>
+        <image style="width:100%;" src="{{foodInfo.img}}"></image>
+    </view>
+</view>
+
+<view class='title'>
+    {{foodInfo.title}}
+</view>
+
+<view class="bottom"></view>
+
+<view>
+    <view style="margin:10px 10px;">
+        <view style="font-size:18px;font-weight:700;">用料</view>
+        <view wx:for="{{foodInfo.stuff}}" wx:key="item" class="info between">
+            <text>{{item.name}}</text>
+            <text>{{item.weight}}</text>
+        </view>
+    </view>
+</view>
