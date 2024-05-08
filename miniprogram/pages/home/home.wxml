@@ -12,7 +12,7 @@
 <view style="padding:0 10px;margin:10px 0;">
     <view class="grid__4k">
         <view class="center">
-            <image class="nav-img" src="cloud://cloud1-8guxzlq4dfa00a43.636c-cloud1-8guxzlq4dfa00a43-1302289871/nav/park1-18.jpg"></image>
+            <image class="nav-img" src="https://img.z4a.net/images/2024/05/07/QQ20240411153214.png"></image>
             <view style="font-size:14px;margin-top:5px;">家常菜</view>
         </view>
         <view class="center">
@@ -29,6 +29,7 @@
         </view>
     </view>
 </view>
+<image class="nav-img" src="https://pic.imgdb.cn/item/6639c7e50ea9cb14032865cd.png"></image>
 <view style="padding:0 10px;">
     <view class="grid__2k">
         <view wx:for="{{caipuList}}" wx:key="item">
